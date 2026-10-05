@@ -1,0 +1,29 @@
+# Virtual environments
+venv/
+env/
+.venv/
+.venv_*/
+
+# Python cache & build
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# MediaPipe model binaries
+hand_landmarker.task
+assets/hand_landmarker.task
+
+# Saved drawing exports
+exports/*.png
+airdraw_*.png
+
+# Operating system / IDE artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
